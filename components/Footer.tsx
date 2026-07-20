@@ -1,6 +1,6 @@
 'use client'
 
-import { Code2, GitBranch, Heart, Share2, Mail } from 'lucide-react'
+import { Code2, Heart, Mail, ExternalLink } from 'lucide-react'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -13,8 +13,8 @@ export function Footer() {
   }
 
   const socials = [
-    { icon: GitBranch, label: 'GitHub', href: '#' },
-    { icon: Share2, label: 'Twitter', href: '#' },
+    { icon: Code2, label: 'GitHub', href: '#' },
+    { icon: ExternalLink, label: 'Twitter', href: '#' },
     { icon: Heart, label: 'Community', href: '#' },
     { icon: Mail, label: 'Email', href: '#' },
   ]
